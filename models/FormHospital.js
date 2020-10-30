@@ -7,7 +7,7 @@ const Schema = new mongoose.Schema({
     },
     jenis_kelamin: {
         type: String,
-        required:[true, "Jenis Kelamin harus diiisi"]
+        required:[true, "Jenis Kelamin harus diisi"]
     }, 
     umur: {
         type: Number,
