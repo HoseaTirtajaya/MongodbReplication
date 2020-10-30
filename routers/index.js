@@ -22,10 +22,4 @@ Router.post("/form/", (req, res, next) => {
     }).catch(next)
 });
 
-Router.patch("/form/:idform", (req, res, next) => {
-    let id_form = req.params.idform;
-
-    FormHospital.updateOne({_id: id_form}, {nama: "Mantap"}, {}).then().catch();
-});
-
 module.exports = Router;
