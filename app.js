@@ -34,6 +34,9 @@ app.use(express.json());
 //app.use Router
 app.use(require("./routers"));
 
+//Err handler
+app.use(require("./middleware/errHandler"));
+
 //Listening
 server.listen(PORT, () => console.log("Server started on " + PORT));
 
