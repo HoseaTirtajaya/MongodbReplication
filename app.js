@@ -1,5 +1,4 @@
-// mongod --dbpath "C:\Program Files\MongoDB\Server\4.4\data" --logpath 
-// "C:\Program Files\MongoDB\Server\4.4\log\mongod.log" --port 27017 --storageEngine=wiredTiger --journal --replSet mainhospital
+// mongod --dbpath "C:\Program Files\MongoDB\Server\4.4\data" --logpath "C:\Program Files\MongoDB\Server\4.4\log\mongod.log" --port 27017 --storageEngine=wiredTiger --journal --replSet mainhospital
 
 // mongod --dbpath "C:\backupmain\db" 
 // --logpath "C:\backupmain\log\mongod.log" --port 27021 --storageEngine=wiredTiger --journal --replSet mainhospital
